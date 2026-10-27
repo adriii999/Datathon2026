@@ -1,0 +1,74 @@
+{
+  "modelo": "m3_demografia",
+  "fecha": "2026-10-27T19:46:45",
+  "version_sklearn": "1.9.1",
+  "dataset": {
+    "fichero": "dataset_155_municipios_2010-2025.xlsx",
+    "sha256": "9b19d9746bb6248518dee21587854af0d3b8d5483bb8291c146f3e2e9b6beef5",
+    "filas_entrenamiento": 616,
+    "filas_test": 168,
+    "split": "GroupShuffleSplit por municipio (test 20 %, semilla 2026)"
+  },
+  "tarea": "Factor de crecimiento poblacional a horizonte h",
+  "contrato_salida": "log(factor); el consumidor aplica EXP()",
+  "features": [
+    "log_pob",
+    "cagr_1",
+    "cagr_3",
+    "cagr_5",
+    "cagr_10",
+    "vol_5",
+    "edad_media",
+    "pct_menor_15",
+    "pct_65mas",
+    "reemplazamiento",
+    "paro_100",
+    "var_paro",
+    "migracion_3y",
+    "distancia_sol_km",
+    "tiempo_centro_min",
+    "horizonte"
+  ],
+  "orden_features": "posicional",
+  "parametros": {
+    "alpha": 0.9,
+    "ccp_alpha": 0.0,
+    "criterion": "deprecated",
+    "init": null,
+    "learning_rate": 0.05,
+    "loss": "squared_error",
+    "max_depth": 3,
+    "max_features": null,
+    "max_leaf_nodes": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 1,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "n_estimators": 400,
+    "n_iter_no_change": null,
+    "random_state": 2026,
+    "subsample": 0.9,
+    "tol": 0.0001,
+    "validation_fraction": 0.1,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "metricas": {
+    "mae_log_test": 0.017447446980492075,
+    "error_absoluto_mediano_pct_test": 1.2674543754107936,
+    "mae_log_train": 0.005584846626340029,
+    "error_absoluto_mediano_pct_train": 0.4491852501170345,
+    "error_absoluto_mediano_pct_por_horizonte": {
+      "1": 0.9284675005720114,
+      "2": 1.3424564849710168,
+      "3": 1.3397453728034678,
+      "4": 1.619974749064959,
+      "5": 2.1983653876446083
+    }
+  },
+  "validacion_onnx": {
+    "max_abs_diff": 3.7519282902742646e-08,
+    "rep_ok": true
+  },
+  "nota_horizonte": "Solo hay labels observadas hasta 2025. Pronósticos a horizontes > 5 desde 2025 son extrapolación (el modelo no los vio concretamente); hasta 10 años se asumen válidos por el diseño de la task."
+}

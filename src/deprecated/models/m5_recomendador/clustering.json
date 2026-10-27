@@ -1,0 +1,217 @@
+{
+  "clusters": [
+    {
+      "id_municipio": 14,
+      "codigo_ine": 28125,
+      "nombre": "Robledo de Chavela",
+      "cluster_id": 1,
+      "tipologia_m5": "Cabeceras Comarcales Equilibradas",
+      "arquetipo_actual": "Reserva de Oportunidad Residencial y Suelo"
+    },
+    {
+      "id_municipio": 1,
+      "codigo_ine": 28027,
+      "nombre": "Buitrago del Lozoya",
+      "cluster_id": 1,
+      "tipologia_m5": "Cabeceras Comarcales Equilibradas",
+      "arquetipo_actual": "Reserva de Oportunidad Residencial y Suelo"
+    },
+    {
+      "id_municipio": 10,
+      "codigo_ine": 28088,
+      "nombre": "Montejo de la Sierra",
+      "cluster_id": 1,
+      "tipologia_m5": "Cabeceras Comarcales Equilibradas",
+      "arquetipo_actual": "Reserva de Oportunidad Residencial y Suelo"
+    },
+    {
+      "id_municipio": 5,
+      "codigo_ine": 28052,
+      "nombre": "Chinchón",
+      "cluster_id": 2,
+      "tipologia_m5": "Pueblos Conectados de Calidad Ambiental y Teletrabajo",
+      "arquetipo_actual": "Reserva de Oportunidad Residencial y Suelo"
+    },
+    {
+      "id_municipio": 15,
+      "codigo_ine": 28133,
+      "nombre": "San Martín de Valdeiglesias",
+      "cluster_id": 2,
+      "tipologia_m5": "Pueblos Conectados de Calidad Ambiental y Teletrabajo",
+      "arquetipo_actual": "Reserva de Oportunidad Residencial y Suelo"
+    },
+    {
+      "id_municipio": 9,
+      "codigo_ine": 28086,
+      "nombre": "El Molar",
+      "cluster_id": 0,
+      "tipologia_m5": "Nodos Metropolitanos y Corredores Dinámicos",
+      "arquetipo_actual": "Hub de Teletrabajo y Conectividad Comarcal"
+    },
+    {
+      "id_municipio": 20,
+      "codigo_ine": 28180,
+      "nombre": "Villarejo de Salvanés",
+      "cluster_id": 2,
+      "tipologia_m5": "Pueblos Conectados de Calidad Ambiental y Teletrabajo",
+      "arquetipo_actual": "Reserva de Oportunidad Residencial y Suelo"
+    },
+    {
+      "id_municipio": 18,
+      "codigo_ine": 28154,
+      "nombre": "Torres de la Alameda",
+      "cluster_id": 0,
+      "tipologia_m5": "Nodos Metropolitanos y Corredores Dinámicos",
+      "arquetipo_actual": "Hub de Teletrabajo y Conectividad Comarcal"
+    },
+    {
+      "id_municipio": 13,
+      "codigo_ine": 28120,
+      "nombre": "Rascafría",
+      "cluster_id": 1,
+      "tipologia_m5": "Cabeceras Comarcales Equilibradas",
+      "arquetipo_actual": "Reserva de Oportunidad Residencial y Suelo"
+    },
+    {
+      "id_municipio": 19,
+      "codigo_ine": 28171,
+      "nombre": "Villa del Prado",
+      "cluster_id": 2,
+      "tipologia_m5": "Pueblos Conectados de Calidad Ambiental y Teletrabajo",
+      "arquetipo_actual": "Reserva de Oportunidad Residencial y Suelo"
+    },
+    {
+      "id_municipio": 4,
+      "codigo_ine": 28043,
+      "nombre": "Colmenar de Oreja",
+      "cluster_id": 2,
+      "tipologia_m5": "Pueblos Conectados de Calidad Ambiental y Teletrabajo",
+      "arquetipo_actual": "Reserva de Oportunidad Residencial y Suelo"
+    },
+    {
+      "id_municipio": 11,
+      "codigo_ine": 28091,
+      "nombre": "Morata de Tajuña",
+      "cluster_id": 0,
+      "tipologia_m5": "Nodos Metropolitanos y Corredores Dinámicos",
+      "arquetipo_actual": "Hub de Teletrabajo y Conectividad Comarcal"
+    },
+    {
+      "id_municipio": 7,
+      "codigo_ine": 28082,
+      "nombre": "Manzanares el Real",
+      "cluster_id": 3,
+      "tipologia_m5": "Reserva de Oportunidad Residencial y Suelo Asequible",
+      "arquetipo_actual": "Reserva de Oportunidad Residencial y Suelo"
+    },
+    {
+      "id_municipio": 8,
+      "codigo_ine": 28083,
+      "nombre": "Meco",
+      "cluster_id": 0,
+      "tipologia_m5": "Nodos Metropolitanos y Corredores Dinámicos",
+      "arquetipo_actual": "Retiro Silver Economy y Alta Calidad Ambiental"
+    },
+    {
+      "id_municipio": 17,
+      "codigo_ine": 28151,
+      "nombre": "Torrelaguna",
+      "cluster_id": 2,
+      "tipologia_m5": "Pueblos Conectados de Calidad Ambiental y Teletrabajo",
+      "arquetipo_actual": "Reserva de Oportunidad Residencial y Suelo"
+    },
+    {
+      "id_municipio": 2,
+      "codigo_ine": 28038,
+      "nombre": "Cercedilla",
+      "cluster_id": 3,
+      "tipologia_m5": "Reserva de Oportunidad Residencial y Suelo Asequible",
+      "arquetipo_actual": "Hub de Teletrabajo y Conectividad Comarcal"
+    },
+    {
+      "id_municipio": 3,
+      "codigo_ine": 28040,
+      "nombre": "Ciempozuelos",
+      "cluster_id": 0,
+      "tipologia_m5": "Nodos Metropolitanos y Corredores Dinámicos",
+      "arquetipo_actual": "Polo Residencial Periurbano en Crecimiento"
+    },
+    {
+      "id_municipio": 12,
+      "codigo_ine": 28096,
+      "nombre": "Navalcarnero",
+      "cluster_id": 0,
+      "tipologia_m5": "Nodos Metropolitanos y Corredores Dinámicos",
+      "arquetipo_actual": "Polo Residencial Periurbano en Crecimiento"
+    },
+    {
+      "id_municipio": 6,
+      "codigo_ine": 28068,
+      "nombre": "Guadarrama",
+      "cluster_id": 3,
+      "tipologia_m5": "Reserva de Oportunidad Residencial y Suelo Asequible",
+      "arquetipo_actual": "Hub de Teletrabajo y Conectividad Comarcal"
+    },
+    {
+      "id_municipio": 16,
+      "codigo_ine": 28144,
+      "nombre": "Soto del Real",
+      "cluster_id": 3,
+      "tipologia_m5": "Reserva de Oportunidad Residencial y Suelo Asequible",
+      "arquetipo_actual": "Hub de Teletrabajo y Conectividad Comarcal"
+    }
+  ],
+  "centroids_features": [
+    "score_sanidad",
+    "score_educacion",
+    "score_conectividad",
+    "score_vivienda",
+    "tiempo_medio_madrid_minutos",
+    "precio_m2_compra",
+    "densidad"
+  ],
+  "centroids": {
+    "0": [
+      -0.5266,
+      -0.6999,
+      1.2006,
+      -0.6149,
+      -1.0509,
+      0.1814,
+      1.0421
+    ],
+    "1": [
+      1.403,
+      1.7194,
+      -1.0485,
+      0.9559,
+      1.4011,
+      -0.4914,
+      -0.9262
+    ],
+    "2": [
+      -0.4391,
+      -0.2966,
+      -0.5444,
+      0.8544,
+      0.2919,
+      -0.8717,
+      -0.6034
+    ],
+    "3": [
+      0.0455,
+      -0.2246,
+      0.0641,
+      -1.3152,
+      -0.2627,
+      1.5269,
+      0.2682
+    ]
+  },
+  "cluster_sizes": {
+    "0": 6,
+    "1": 4,
+    "2": 6,
+    "3": 4
+  }
+}

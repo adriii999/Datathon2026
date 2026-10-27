@@ -1,0 +1,102 @@
+{
+  "modelo": "m4_capacidad",
+  "fecha": "2026-10-27T19:46:54",
+  "version_sklearn": "1.9.1",
+  "dataset": {
+    "fichero": "dataset_155_municipios_2010-2025.xlsx",
+    "sha256": "9b19d9746bb6248518dee21587854af0d3b8d5483bb8291c146f3e2e9b6beef5",
+    "filas_entrenamiento": 1612,
+    "filas_test": 403,
+    "estados": "155 municipios x años 2010-2025",
+    "split": "filas aleatorias 80/20 (semilla 2026)"
+  },
+  "tarea": "Puntuar un estado municipal: 5 dimensiones (0-100)",
+  "contrato_salida": "(dim_dem, dim_viv, dim_ser, dim_acc, dim_emp); índice y factor limitante se calculan en SQL",
+  "features": [
+    "log_pob",
+    "salud_10k",
+    "escuelas_1000",
+    "paradas_1000",
+    "telefono_1000",
+    "viv_1000",
+    "crec_10y_pct",
+    "pct_menor_15",
+    "pct_65mas",
+    "reemplazamiento",
+    "paro_100",
+    "var_paro",
+    "tiempo_centro_min",
+    "distancia_sol_km"
+  ],
+  "targets": [
+    "dim_dem",
+    "dim_viv",
+    "dim_ser",
+    "dim_acc",
+    "dim_emp"
+  ],
+  "pesos_indice": {
+    "dim_dem": 0.2,
+    "dim_viv": 0.15,
+    "dim_ser": 0.25,
+    "dim_acc": 0.25,
+    "dim_emp": 0.15
+  },
+  "parametros": {
+    "bootstrap": true,
+    "ccp_alpha": 0.0,
+    "criterion": "squared_error",
+    "max_depth": 18,
+    "max_features": 1.0,
+    "max_leaf_nodes": null,
+    "max_samples": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 3,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "monotonic_cst": null,
+    "n_estimators": 500,
+    "n_jobs": -1,
+    "oob_score": false,
+    "random_state": 2026,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "metricas_test": {
+    "dim_dem": {
+      "mae": 4.375708002851703,
+      "spearman": 0.9600672621291317
+    },
+    "dim_viv": {
+      "mae": 2.863902136390496,
+      "spearman": 0.9929469697487612
+    },
+    "dim_ser": {
+      "mae": 4.719151188756914,
+      "spearman": 0.9500804868425212
+    },
+    "dim_acc": {
+      "mae": 3.628917016044322,
+      "spearman": 0.96051820521483
+    },
+    "dim_emp": {
+      "mae": 10.663204490303702,
+      "spearman": 0.804965127103812
+    }
+  },
+  "validacion_onnx": {
+    "max_abs_diff": 2.7721309123762694e-05
+  },
+  "imputacion_tiempo_centro": {
+    "n_imputados": 99,
+    "a": 14.31386663987677,
+    "b": 0.9032072967025827,
+    "regla": "tiempo_centro_min = max(0, a + b·distancia_sol_km) si falta",
+    "municipios_con_dato": 56
+  },
+  "declaraciones": [
+    "Targets = percent-rank dentro de la cohorte de cada año replicando PV_SIMULA",
+    "Stock de vivienda por año: unidades_urbanas_residencial (única serie de stock en el xlsx)",
+    "escuelas, tiempo_centro y distancia son estáticos por municipio"
+  ]
+}

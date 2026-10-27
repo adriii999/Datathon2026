@@ -1,0 +1,31 @@
+{
+  "model_name": "M1_AVM_HEDONICO",
+  "algorithm": "RandomForestRegressor",
+  "cv_scheme": "Spatial_GroupKFold_Comarca",
+  "n_samples": 20,
+  "n_features": 7,
+  "r2_in_sample": 0.8032,
+  "r2_cv_oof": -0.3398,
+  "mae_cv_mean": 382.83,
+  "mae_cv_std": 230.2,
+  "rmse_cv_mean": 432.04,
+  "rmse_cv_std": 216.88,
+  "feature_importances": {
+    "tiempo_medio_madrid_minutos": 0.0696,
+    "densidad": 0.358,
+    "cobertura_fibra_pct": 0.1297,
+    "paradas_x1000": 0.0507,
+    "vacias_x1000": 0.2273,
+    "medicos_x1000": 0.1222,
+    "tasa_holgura_escolar": 0.0424
+  },
+  "dataset_version": "v1.0.0-F2",
+  "origen": "ESTIMADO",
+  "metodo": "RANDOM_FOREST_SPATIAL_CV_ONNX",
+  "advertencia": "Con n=20 y 8 comarcas el R² fuera de muestra es inestable y puede ser negativo. M1 es un módulo ilustrativo, no un AVM validado.",
+  "onnx_max_abs_diff": 0.0005468750000545697,
+  "onnx_max_rel_diff": 3.649242215192778e-07,
+  "onnx_rel_tolerance": 1e-06,
+  "onnx_abs_tolerance": 0.001,
+  "onnx_equivalence_passed": true
+}

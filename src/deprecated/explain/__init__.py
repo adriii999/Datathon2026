@@ -1,0 +1,2 @@
+from .redaccion_natural import redactar_explicacion_shap, verificar_ausencia_causalidad
+from .shap_to_json import guardar_shap_background, explicar_instancia_a_json, calcular_hash_background

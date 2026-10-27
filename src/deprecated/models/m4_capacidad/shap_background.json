@@ -1,0 +1,47 @@
+{
+  "features": [
+    "score_sanidad",
+    "score_educacion",
+    "score_conectividad",
+    "score_vivienda",
+    "hab_por_medico",
+    "ocupacion_escolar_pct",
+    "stock_vivienda_vacia_est",
+    "suelo_urbano_disponible_m2"
+  ],
+  "feature_means": [
+    21.435501,
+    33.6875,
+    49.494499,
+    45.196003,
+    1372.050049,
+    86.207504,
+    603.150024,
+    163636.203125
+  ],
+  "feature_stds": [
+    17.722843,
+    24.774099,
+    15.962724,
+    25.550579,
+    319.276276,
+    6.306896,
+    326.705719,
+    144658.859375
+  ],
+  "feature_importances": [
+    0.065229,
+    0.060221,
+    0.003786,
+    0.064141,
+    0.757484,
+    0.005064,
+    0.002479,
+    0.041596
+  ],
+  "base_value": 36.645057,
+  "n_samples_background": 20,
+  "metodo_atribucion": "EFECTOS_MARGINALES_SIMETRICOS_NORMALIZADOS",
+  "dataset_version": "v1.0.0-F2",
+  "background_sha256": "4c86e5edf5164a9d62e809875fce89e5d74358c5e513d4b6a99b319b93a81c85"
+}

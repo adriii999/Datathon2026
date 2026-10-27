@@ -1,0 +1,12 @@
+{
+  "model_name": "M5_CLUSTERING_MCDM_COSINE",
+  "algorithm": "KMeans_k4_WeightedCosine",
+  "n_clusters": 4,
+  "n_clusters_efectivos": 4,
+  "silhouette_score": 0.3183,
+  "inertia": 39.01,
+  "n_municipios": 20,
+  "dataset_version": "v1.0.0-F2",
+  "origen": "ESTIMADO",
+  "metodo": "KMEANS_STD_SILHOUETTE"
+}
